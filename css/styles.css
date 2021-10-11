@@ -9,37 +9,42 @@ body {
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    background: linear-gradient(180deg, rgba(192, 63, 140, 0.31) 0%, #082F45 85.62%), url("../img/bg.jpg") no-repeat center top / cover;
+    min-height: 100vh;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .menu {
-  list-style-type: none;
-  display: flex;
-  margin: 0 17px 0;
+    list-style-type: none;
+    display: flex;
+    margin: 0 17px 0;
 }
 
 .menu-item {
-  margin-right: 25px;
+    margin-right: 25px;
 }
 
 .menu-link {
-  color: #FFFFFF;
-  text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .user {
-  margin-left: auto;
-  color: #FFFFFF;
-  display: flex;
-  align-items: center;
+    margin-left: auto;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
 
 .avatar {
-  width: 33px;
-  height: 33px;
-  border-radius: 50%;
-  margin-left: 12px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
